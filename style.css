@@ -1,1 +1,28 @@
-/*# sourceMappingURL=style.css.map */
+@import '~@flaticon-uicons/src/uicons/css/all/.css';
+.navbar {
+  background-color: #392d85;
+  height: 98.84px;
+}
+.navbar .navbar-brand img {
+  width: 175px;
+  height: 31.6px;
+}
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+  padding: 0 !important;
+}
+.navbar .navbar-nav .nav-link a {
+  height: 95px !important;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.navbar .navbar-nav .nav-link i {
+  padding: 8px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,35 @@
-$primary: #687693;
+$primary: #392d85;
+$secondary: linear-gradient(150deg, #32267d 0%, #9584ee 100%);
+@import '~@flaticon-uicons/src/uicons/css/all/.css';
+
+.navbar {
+    background-color: $primary;
+    height: 98.84px;
+
+    .navbar-brand {
+        img {
+            width: 175px;
+            height: 31.6px;
+        }
+    }
+
+    .navbar-nav{
+        display: flex;
+        align-items: center;
+        .nav-link{
+            padding: 0 !important;
+            a{
+                height: 95px !important;
+                color: #fff;
+                font-size: 16px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                padding: 8px;
+            }
+            i{
+                padding: 8px;
+            }
+        }
+    }
+}
