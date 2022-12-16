@@ -13,12 +13,14 @@ $secondary: linear-gradient(150deg, #32267d 0%, #9584ee 100%);
         }
     }
 
-    .navbar-nav{
+    .navbar-nav {
         display: flex;
         align-items: center;
-        .nav-link{
+
+        .nav-link {
             padding: 0 !important;
-            a{
+
+            a {
                 height: 95px !important;
                 color: #fff;
                 font-size: 16px;
@@ -27,9 +29,56 @@ $secondary: linear-gradient(150deg, #32267d 0%, #9584ee 100%);
                 align-items: center;
                 padding: 8px;
             }
-            i{
+
+            i {
                 padding: 8px;
             }
+        }
+    }
+}
+
+
+.hero {
+    background: #40338d;
+    padding: 100px 60px;
+    color: #fff;
+    .leftside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .actionBtns {
+            .getStarted{
+                background: linear-gradient(158deg, #34ffdf 0%, #1bcdf8 100%);
+                border-color: #34ffdf;
+            }
+            .knowMore{
+                border-color: #34ffdf;
+                background-color: transparent;
+                margin-left: 20px;
+            }
+            .getStarted,
+            .knowMore {
+               &:hover{
+                transform: scale(1.1);
+                transition: all 0.3s ease;
+               }
+                box-shadow: 0 20px 20px -10px rgb(63 51 137 / 23%);
+                padding: 16px 35px;
+                font-size: 18px;
+                color: #fff;
+                border-radius: 4px;
+                transition: all 0.3s ease
+            }
+
+            ;
+        }
+    }
+    .rightside{
+        position: relative;
+        img{
+            transform: scale(1.5) translate(10%, -30%);
+            position: absolute;
+
         }
     }
 }
